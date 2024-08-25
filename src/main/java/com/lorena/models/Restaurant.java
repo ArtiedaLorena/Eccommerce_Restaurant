@@ -12,7 +12,8 @@ import java.util.List;
 
 @Data
 @Entity
-@AllArgsConstructor@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class Restaurant {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
